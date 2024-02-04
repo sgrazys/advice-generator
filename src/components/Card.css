@@ -1,0 +1,33 @@
+.card {
+	text-align: center;
+	width: 100%;
+	max-width: 54rem;
+	border-radius: 0.4167em;
+	background-color: var(--clr-dark-gray);
+	padding: 4rem 2.4rem 0;
+	position: relative;
+}
+
+.divider::after {
+	content: '';
+	display: inline-block;
+	background-image: url(../../public/images/pattern-divider-desktop.svg);
+	background-position: center;
+	background-size: cover;
+	width: 100%;
+	height: 1.6rem;
+	margin-top: 1em;
+	margin-bottom: 2.6667em;
+}
+
+.advice-number {
+	font-size: 1.1rem;
+	color: var(--clr-primary);
+	letter-spacing: 0.3145em;
+	margin-bottom: 2.1818em;
+}
+
+.quote {
+	margin-bottom: 8.4rem;
+	color: red;
+}
