@@ -4,7 +4,7 @@ import Button from './Button';
 function Card({ quote, number, onHandleQuote }) {
 	return (
 		<div className='card'>
-			<h1 className='advice-number'>ADVICE # {number}</h1>
+			<h1 className='card-top '>ADVICE # {number}</h1>
 			<q className='quote'>{quote}</q>
 			<div
 				className='divider'

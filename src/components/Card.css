@@ -4,7 +4,7 @@
 	max-width: 54rem;
 	border-radius: 0.4167em;
 	background-color: var(--clr-dark-gray);
-	padding: 4rem 2.4rem 0;
+	padding: 1.6667em 1em 0;
 	position: relative;
 }
 
@@ -20,13 +20,27 @@
 	margin-bottom: 2.6667em;
 }
 
-.advice-number {
+.card-top {
 	font-size: 1.1rem;
 	color: var(--clr-primary);
 	letter-spacing: 0.3145em;
 	margin-bottom: 2.1818em;
 }
 
-.quote {
-	margin-bottom: 8.4rem;
+@media (min-width: 48em) {
+	.card {
+		padding: 2em 2em 0;
+	}
+	.card-top {
+		font-size: 1.3rem;
+	}
+
+	.quote {
+		font-size: 2.8rem;
+	}
+
+	.divider::after {
+		margin-top: 1.6667em;
+		margin-bottom: 3em;
+	}
 }
