@@ -1,16 +1,16 @@
 import '../components/Card.css';
 import Button from './Button';
 
-function Card() {
+function Card({ quote, number, onHandleQuote }) {
 	return (
 		<div className='card'>
-			<h1 className='advice-number'>ADVICE # 117</h1>
-			<q className='quote'>CITATA</q>
+			<h1 className='advice-number'>ADVICE # {number}</h1>
+			<q className='quote'>{quote}</q>
 			<div
 				className='divider'
 				role='presentation'></div>
 
-			<Button />
+			<Button onClick={onHandleQuote} />
 		</div>
 	);
 }
